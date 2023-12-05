@@ -10,7 +10,7 @@ async function getPost(id:string) {
 }
 
 export async function generateStaticParams() {
-    const ids: string[] = ["Rendering","ssd_and_ssr","ssd_and_ssr2"]
+    const ids: string[] = ["Rendering","ssd-ssr"]
     return ids.map((id)=>({id:id}))
 }
 
